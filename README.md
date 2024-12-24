@@ -15,6 +15,16 @@ Author: Galal Abdelaziz
 
 ***
 
+## About:
+
+This project is a simple implementation of a data analytics tool using Python. 
+
+https://divvy-tripdata.s3.amazonaws.com/index.html
+https://www.kaggle.com/datasets/mdmasumomarjashim/divvy-trips-data-20192020
+https://medium.com/@gbemuduazubuike/divvy-bikes-an-exercise-on-data-cleaning-and-analysis-of-cycling-data-using-r-programming-language-c38e8a4521ef
+
+***
+
 ## Contents:
 
 ***
