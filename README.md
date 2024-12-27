@@ -29,6 +29,29 @@ https://medium.com/@gbemuduazubuike/divvy-bikes-an-exercise-on-data-cleaning-and
 
 ***
 
+The **Divvy Trips Q1 2019 Dataset** provides detailed information about **365,069 trips** recorded between January and March 2019. It captures key aspects of Chicago’s bike-sharing program, including trip details, user demographics, and station usage.
+
+### Key Features:
+- **Trip Information**: Includes trip ID, start and end times, trip duration, and bike ID.
+- **Station Details**: Provides the start and end station names and IDs.
+- **User Demographics**: Contains user type (Subscriber or Customer), gender, and birth year.
+
+### Data Highlights:
+- **Trip Patterns**: The dataset enables analyses of usage trends, station popularity, and trip durations.
+- **User Insights**: Demographic information (gender and birth year) allows for user profile studies, though some data is missing:
+  - **Gender**: Missing for **19,711 trips** (~5.4%).
+  - **Birthyear**: Missing for **18,023 trips** (~4.9%).
+
+### Use Cases:
+This dataset is ideal for exploring:
+- User behavior trends across seasons.
+- Station and bike usage patterns.
+- Demographic characteristics of riders.
+
+The dataset’s completeness in trip-level details ensures robust analysis of operational aspects, while missing demographic data may slightly limit user-specific insights.
+
+***
+
 **Disclaimer**
 
 This repository includes content created with the assistance of an AI chat assistant. While the AI has provided valuable insights, code, and text generation, all content has been reviewed, modified, and verified by the repository's author to ensure accuracy and relevance.
