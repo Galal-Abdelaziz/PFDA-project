@@ -15,6 +15,16 @@ Author: Galal Abdelaziz
 
 ***
 
+## Introduction
+
+**Divvy Bikes** is a popular bicycle-sharing system in the **Chicagoland** area, providing an affordable, convenient, and flexible transportation option for short-distance travel. It operates a network of durable bikes stationed throughout Chicago and Evanston, accessible to users through **Annual Memberships** or **Passes** via the Divvy App or kiosks.
+
+Divvy is available **24/7**, **365 days a year**, offering an ideal solution for activities such as commuting, running errands, or leisurely exploring the city. Riders can unlock and return bikes at any station within the network, providing freedom and flexibility across the extensive system.
+
+For more details, visit [Divvy Bikes Website](https://divvybikes.com/about).
+
+***
+
 ## About:
 
 This project is a simple implementation of a data analytics tool using Python. 
