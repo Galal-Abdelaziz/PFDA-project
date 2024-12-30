@@ -29,30 +29,36 @@ For more details, visit [Divvy Bikes Website](https://divvybikes.com/about).
 
 This project is a simple implementation of a data analytics tool using Python. 
 
-https://divvy-tripdata.s3.amazonaws.com/index.html
-https://www.kaggle.com/datasets/mdmasumomarjashim/divvy-trips-data-20192020
-https://medium.com/@gbemuduazubuike/divvy-bikes-an-exercise-on-data-cleaning-and-analysis-of-cycling-data-using-r-programming-language-c38e8a4521ef
-
 ***
 
 ## Contents:
+
+- **dataset**: This folder contains the .CSV dataset file used for this analysis.
+- **img**: This folder contains all images used in this project.
+- **.gitignore**: Specifies which files and directories should be ignored by Git when committing changes to a repository.
+- **[project.ipynb](https://github.com/Galal-Abdelaziz/PFDA-project/blob/main/project.ipynb)**: This notebook contains the full analysis, including data cleaning, data visualization, and data analysis.
+- **[analysis.ipynb](https://github.com/Galal-Abdelaziz/PFDA-project/blob/main/analysis.ipynb): This notebook contains the data analysis part of the project.
+- **README.md**: Contains information about the repository, including its purpose, structure, and usage instructions.
 
 ***
 
 The **Divvy Trips Q1 2019 Dataset** provides detailed information about **365,069 trips** recorded between January and March 2019. It captures key aspects of Chicago’s bike-sharing program, including trip details, user demographics, and station usage.
 
 ### Key Features:
+
 - **Trip Information**: Includes trip ID, start and end times, trip duration, and bike ID.
 - **Station Details**: Provides the start and end station names and IDs.
 - **User Demographics**: Contains user type (Subscriber or Customer), gender, and birth year.
 
 ### Data Highlights:
+
 - **Trip Patterns**: The dataset enables analyses of usage trends, station popularity, and trip durations.
 - **User Insights**: Demographic information (gender and birth year) allows for user profile studies, though some data is missing:
   - **Gender**: Missing for **19,711 trips** (~5.4%).
   - **Birthyear**: Missing for **18,023 trips** (~4.9%).
 
 ### Use Cases:
+
 This dataset is ideal for exploring:
 - User behavior trends across seasons.
 - Station and bike usage patterns.
@@ -65,6 +71,16 @@ The dataset’s completeness in trip-level details ensures robust analysis of op
 **Disclaimer**
 
 This repository includes content created with the assistance of an AI chat assistant. While the AI has provided valuable insights, code, and text generation, all content has been reviewed, modified, and verified by the repository's author to ensure accuracy and relevance.
+
+***
+
+## Resources:
+
+- Weekly lectures. 
+- Understanding the dataset: : [1](https://divvy-tripdata.s3.amazonaws.com/index.html), [2](https://www.kaggle.com/datasets/mdmasumomarjashim/divvy-trips-data-20192020), [3](https://medium.com/@gbemuduazubuike/), [4](divvy-bikes-an-exercise-on-data-cleaning-and-analysis-of-cycling-data-using-r-programming-language-c38e8a4521ef).
+- Data Preperation: [Date Formatting](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.to_datetime.html); [Data Frame](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.set_index.html); [Handling Missing Values](https://community.sisense.com/t5/knowledge-base/dealing-with-missing-values-in-python/ta-p/9376).
+- Calculations: [Resampling](https://pandas.pydata.org/pandas-docs/stable/user_guide/timeseries.html#resampling); [Calculating Mean](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.mean.html); [Calculating Max](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.max.html); [Data Frame Filtring/Indexing](https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#boolean-indexing); [Date Time Index](https://pandas.pydata.org/pandas-docs/stable/user_guide/timeseries.html#dateoffset); [Rolling](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.rolling.html). 
+- Plotting: [1](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.figure.html), [2](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html), [3](https://matplotlib.org/stable/api/axes_api.html).  
 
 ***
 
