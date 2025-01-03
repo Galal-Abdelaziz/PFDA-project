@@ -15,6 +15,16 @@ Author: Galal Abdelaziz
 
 ***
 
+## Libraries:
+
+- [**pandas**](https://pandas.pydata.org/) as pd
+- [**matplotlib.pyplot**](https://matplotlib.org/stable/api/pyplot_api.html) as plt
+- [**numpy**](https://numpy.org/) as np
+- [**seaborn**](https://seaborn.pydata.org/) as sns
+- [**sqlite3**](https://docs.python.org/3/library/sqlite3.html)
+
+***
+
 ## Introduction
 
 **Divvy Bikes** is a popular bicycle-sharing system in the **Chicagoland** area, providing an affordable, convenient, and flexible transportation option for short-distance travel. It operates a network of durable bikes stationed throughout Chicago and Evanston, accessible to users through **Annual Memberships** or **Passes** via the Divvy App or kiosks.
@@ -36,9 +46,10 @@ This project is a simple implementation of a data analytics tool using Python.
 - **datasets**: This folder contains the .CSV dataset files used for this analysis.
 - **img**: This folder contains all images used in this project.
 - **.gitignore**: Specifies which files and directories should be ignored by Git when committing changes to a repository.
-- **[project.ipynb](https://github.com/Galal-Abdelaziz/PFDA-project/blob/main/project.ipynb)**: This notebook contains the full analysis, including data cleaning, data visualization, and data analysis.
-- **[analysis.ipynb](https://github.com/Galal-Abdelaziz/PFDA-project/blob/main/analysis.ipynb): This notebook contains the data analysis part of the project.
-- **[splitlargefile.py](https://github.com/Galal-Abdelaziz/PFDA-project/blob/main/splitlargefile.py): This file contains the script I used to split large CSV files into smaller ones due to the limitations of GitHub.
+- [**project.ipynb**](https://github.com/Galal-Abdelaziz/PFDA-project/blob/main/project.ipynb): This notebook contains the full analysis, including data cleaning, data visualization, and data analysis.
+- [**analysis.ipynb**](https://github.com/Galal-Abdelaziz/PFDA-project/blob/main/analysis.ipynb): This notebook contains the data analysis part of the project.
+- [**divvy_trips.db**](https://github.com/Galal-Abdelaziz/PFDA-project/blob/main/divvy_trips.db): This file contains a Database table created using SQLite. 
+- [**splitlargefile.py**](https://github.com/Galal-Abdelaziz/PFDA-project/blob/main/splitlargefile.py): This file contains the script I used to split large CSV files into smaller ones due to the limitations of GitHub.
 - **README.md**: Contains information about the repository, including its purpose, structure, and usage instructions.
 
 ***
