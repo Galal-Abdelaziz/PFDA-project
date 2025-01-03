@@ -33,11 +33,12 @@ This project is a simple implementation of a data analytics tool using Python.
 
 ## Contents:
 
-- **dataset**: This folder contains the .CSV dataset file used for this analysis.
+- **datasets**: This folder contains the .CSV dataset files used for this analysis.
 - **img**: This folder contains all images used in this project.
 - **.gitignore**: Specifies which files and directories should be ignored by Git when committing changes to a repository.
 - **[project.ipynb](https://github.com/Galal-Abdelaziz/PFDA-project/blob/main/project.ipynb)**: This notebook contains the full analysis, including data cleaning, data visualization, and data analysis.
 - **[analysis.ipynb](https://github.com/Galal-Abdelaziz/PFDA-project/blob/main/analysis.ipynb): This notebook contains the data analysis part of the project.
+- **[splitlargefile.py](https://github.com/Galal-Abdelaziz/PFDA-project/blob/main/splitlargefile.py): This file contains the script I used to split large CSV files into smaller ones due to the limitations of GitHub.
 - **README.md**: Contains information about the repository, including its purpose, structure, and usage instructions.
 
 ***
