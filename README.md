@@ -55,6 +55,28 @@ This project is a simple implementation of a data analytics tool using Python.
 
 ***
 
+## Analysis Objectives:
+
+This project aims to analyze the Divvy trip data to gain insights into city-wide biking trends. The following objectives will be addressed by answering the provided questions:
+
+1. Determine the total number of Divvy trips that occurred.
+2. Identify the number of bikes utilized.
+3. Determine which bikes were most frequently used for trips.
+4. Calculate the average trip duration based on user types (e.g., customers and subscribers).
+5. Identify the most popular start stations from which Divvy trips were initiated.
+6. Identify the most popular end stations where Divvy trips concluded.
+7. Analyze and identify the most popular routes taken by Divvy Bikes users.
+8. Examine how Divvy Bikes usage is divided between customers and subscribers.
+9. Determine whether Divvy Bikes are used more by female or male users.
+10. Analyze the age distribution of Divvy Bikes users.
+11. Identify the peak times during which Divvy Bikes are most frequently used.
+12. Analyze Divvy Bikes usage patterns by day of the week.
+13. Analyze the number of riders per month by quarter for the year 2019.
+
+By addressing these questions, we aim to gain comprehensive insights into the utilization patterns and preferences of Divvy Bikes users, which can provide valuable information for optimizing and enhancing the bike-sharing system's services and infrastructure.
+
+***
+
 The **Divvy Trips Q1 2019 Dataset** provides detailed information about **365,069 trips** recorded between January and March 2019. It captures key aspects of Chicago’s bike-sharing program, including trip details, user demographics, and station usage.
 
 ### Key Features:
@@ -101,7 +123,19 @@ This repository includes content created with the assistance of an AI chat assis
 ## Running the program:
 
 1. Clone the repository using the following command: `git clone https://github.com/Galal-Abdelaziz/PFDA-project.git`
-2. Install the required packages by running `pip install -r requirements.txt` in the terminal.
+2. Navigate into the project directory: `cd PFDA-project`
+3. Install the required packages by running `pip install -r requirements.txt` in the terminal.
+4. (Optional) Create and activate a virtual environment:
+    ```sh
+    python -m venv env
+    source env/bin/activate   # On Windows, use `env\Scripts\activate`
+    ```
+5. Launch Jupyter Notebook by running `jupyter notebook` in the terminal. This will open a new tab in your web browser showing the available notebooks.
+6. Open `project.ipynb` to explore the comprehensive data analysis, which includes:
+    - Data cleaning, inspection, and visualization
+    - Coding and analysis
+7. Open `analysis.ipynb` to view the plots and summary of the data analysis.
+8. Ensure you have SQLite installed to connect to the `divvy_trips.db` database. You can use SQLite or any other compatible database viewer to interact with the database file.
 
 ***
 
