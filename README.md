@@ -51,6 +51,7 @@ This project is a simple implementation of a data analytics tool using Python.
 - [**divvy_trips.db**](https://github.com/Galal-Abdelaziz/PFDA-project/blob/main/divvy_trips.db): This file contains a Database table created using SQLite. 
 - [**splitlargefile.py**](https://github.com/Galal-Abdelaziz/PFDA-project/blob/main/splitlargefile.py): This file contains the script I used to split large CSV files into smaller ones due to the limitations of GitHub.
 - **README.md**: Contains information about the repository, including its purpose, structure, and usage instructions.
+- **requirements.txt**: Specifies the Python packages required to run the project.
 
 ***
 
@@ -94,6 +95,13 @@ This repository includes content created with the assistance of an AI chat assis
 - Calculations: [Resampling](https://pandas.pydata.org/pandas-docs/stable/user_guide/timeseries.html#resampling); [Calculating Mean](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.mean.html); [Calculating Max](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.max.html); [Data Frame Filtring/Indexing](https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#boolean-indexing); [Date Time Index](https://pandas.pydata.org/pandas-docs/stable/user_guide/timeseries.html#dateoffset).
 - Plotting: [1](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.figure.html), [2](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html), [3](https://matplotlib.org/stable/api/axes_api.html).  
 - Database: [1](https://www.sqlitetutorial.net/sqlite-python/), [2](https://docs.python.org/3/library/sqlite3.html), [3](https://www.w3schools.com/sql/).
+
+***
+
+## Running the program:
+
+1. Clone the repository using the following command: `git clone https://github.com/Galal-Abdelaziz/PFDA-project.git
+2. Install the required packages by running `pip install -r requirements.txt` in the terminal.
 
 ***
 
