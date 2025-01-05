@@ -52,6 +52,7 @@ This project is a simple implementation of a data analytics tool using Python.
 - [**splitlargefile.py**](https://github.com/Galal-Abdelaziz/PFDA-project/blob/main/splitlargefile.py): This file contains the script I used to split large CSV files into smaller ones due to the limitations of GitHub.
 - **README.md**: Contains information about the repository, including its purpose, structure, and usage instructions.
 - **requirements.txt**: Specifies the Python packages required to run the project.
+- **requirements.txt**: Specifies the Python packages required to run the project.
 
 ***
 
