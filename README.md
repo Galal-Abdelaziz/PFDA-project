@@ -98,23 +98,6 @@ The dataset’s completeness in trip-level details ensures robust analysis of op
 
 ***
 
-**Disclaimer**
-
-This repository includes content created with the assistance of an AI chat assistant. While the AI has provided valuable insights, code, and text generation, all content has been reviewed, modified, and verified by the repository's author to ensure accuracy and relevance.
-
-***
-
-## Resources:
-
-- Weekly lectures. 
-- Understanding the dataset: : [1](https://divvy-tripdata.s3.amazonaws.com/index.html), [2](https://www.kaggle.com/datasets/mdmasumomarjashim/divvy-trips-data-20192020), [3](https://medium.com/@gbemuduazubuike/), [4](divvy-bikes-an-exercise-on-data-cleaning-and-analysis-of-cycling-data-using-r-programming-language-c38e8a4521ef).
-- Data Preperation: [Date Formatting](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.to_datetime.html); [Data Frame](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.set_index.html); [Handling Missing Values](https://community.sisense.com/t5/knowledge-base/dealing-with-missing-values-in-python/ta-p/9376).
-- Calculations: [Resampling](https://pandas.pydata.org/pandas-docs/stable/user_guide/timeseries.html#resampling); [Calculating Mean](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.mean.html); [Calculating Max](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.max.html); [Data Frame Filtring/Indexing](https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#boolean-indexing); [Date Time Index](https://pandas.pydata.org/pandas-docs/stable/user_guide/timeseries.html#dateoffset).
-- Plotting: [1](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.figure.html), [2](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html), [3](https://matplotlib.org/stable/api/axes_api.html).  
-- Database: [1](https://www.sqlitetutorial.net/sqlite-python/), [2](https://docs.python.org/3/library/sqlite3.html), [3](https://www.w3schools.com/sql/).
-
-***
-
 ## Running the program:
 
 1. Clone the repository using the following command: `git clone https://github.com/Galal-Abdelaziz/PFDA-project.git`
@@ -131,6 +114,23 @@ This repository includes content created with the assistance of an AI chat assis
     - Coding and analysis
 7. Open `analysis.ipynb` to view the plots and summary of the data analysis.
 8. Ensure you have SQLite installed to connect to the `divvy_trips.db` database. You can use SQLite or any other compatible database viewer to interact with the database file.
+
+***
+
+## Resources:
+
+- Weekly lectures. 
+- Understanding the dataset: : [1](https://divvy-tripdata.s3.amazonaws.com/index.html), [2](https://www.kaggle.com/datasets/mdmasumomarjashim/divvy-trips-data-20192020), [3](https://medium.com/@gbemuduazubuike/), [4](divvy-bikes-an-exercise-on-data-cleaning-and-analysis-of-cycling-data-using-r-programming-language-c38e8a4521ef).
+- Data Preperation: [Date Formatting](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.to_datetime.html); [Data Frame](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.set_index.html); [Handling Missing Values](https://community.sisense.com/t5/knowledge-base/dealing-with-missing-values-in-python/ta-p/9376).
+- Calculations: [Resampling](https://pandas.pydata.org/pandas-docs/stable/user_guide/timeseries.html#resampling); [Calculating Mean](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.mean.html); [Calculating Max](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.max.html); [Data Frame Filtring/Indexing](https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#boolean-indexing); [Date Time Index](https://pandas.pydata.org/pandas-docs/stable/user_guide/timeseries.html#dateoffset).
+- Plotting: [1](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.figure.html), [2](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html), [3](https://matplotlib.org/stable/api/axes_api.html).  
+- Database: [1](https://www.sqlitetutorial.net/sqlite-python/), [2](https://docs.python.org/3/library/sqlite3.html), [3](https://www.w3schools.com/sql/).
+
+***
+
+**Disclaimer**
+
+This repository includes content created with the assistance of an AI chat assistant. While the AI has provided valuable insights, code, and text generation, all content has been reviewed, modified, and verified by the repository's author to ensure accuracy and relevance.
 
 ***
 
