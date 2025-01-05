@@ -6,6 +6,8 @@ Author: Galal Abdelaziz
 
 ## This README document is part of the __Programming For Data Analytics__ project 2024/2025, at [ATU](https://www.atu.ie/).
 
+This project is a simple implementation of a data analytics tool using Python. 
+
 ***
 
 ## Technologies:
@@ -32,12 +34,6 @@ Author: Galal Abdelaziz
 Divvy is available **24/7**, **365 days a year**, offering an ideal solution for activities such as commuting, running errands, or leisurely exploring the city. Riders can unlock and return bikes at any station within the network, providing freedom and flexibility across the extensive system.
 
 For more details, visit [Divvy Bikes Website](https://divvybikes.com/about).
-
-***
-
-## About:
-
-This project is a simple implementation of a data analytics tool using Python. 
 
 ***
 
