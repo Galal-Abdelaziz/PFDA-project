@@ -24,6 +24,7 @@ This project is a simple implementation of a data analytics tool using Python.
 - [**numpy**](https://numpy.org/) as np
 - [**seaborn**](https://seaborn.pydata.org/) as sns
 - [**sqlite3**](https://docs.python.org/3/library/sqlite3.html)
+- [**plotly.express**](https://plotly.com/python/plotly-express/) as px
 
 ***
 
