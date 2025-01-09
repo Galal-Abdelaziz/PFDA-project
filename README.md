@@ -45,7 +45,7 @@ For more details, visit [Divvy Bikes Website](https://divvybikes.com/about).
 - **.gitignore**: Specifies which files and directories should be ignored by Git when committing changes to a repository.
 - [**project.ipynb**](https://github.com/Galal-Abdelaziz/PFDA-project/blob/main/project.ipynb): This notebook contains the full analysis, including data cleaning, data visualization, and data analysis.
 - [**analysis.ipynb**](https://github.com/Galal-Abdelaziz/PFDA-project/blob/main/analysis.ipynb): This notebook contains the data analysis part of the project.
-- [**divvy_trips.db**](https://github.com/Galal-Abdelaziz/PFDA-project/blob/main/divvy_trips.db): This file contains a Database table created using SQLite. 
+- [**divvy_trips.db**](https://github.com/Galal-Abdelaziz/PFDA-project/blob/main/divvy_trips.db): This SQLite database file contains a table with Q1 data as a sample. A full-year database is generated when the project notebook is executed, due to GitHub's size limitations.
 - [**splitlargefile.py**](https://github.com/Galal-Abdelaziz/PFDA-project/blob/main/splitlargefile.py): This file contains the script I used to split large CSV files into smaller ones due to the limitations of GitHub.
 - **README.md**: Contains information about the repository, including its purpose, structure, and usage instructions.
 - **requirements.txt**: Specifies the Python packages required to run the project.
@@ -109,10 +109,12 @@ The dataset’s completeness in trip-level details ensures robust analysis of op
     python -m venv env
     source env/bin/activate   # On Windows, use `env\Scripts\activate`
     ```
-5. Launch Jupyter Notebook by running `jupyter notebook` in the terminal. This will open a new tab in your web browser showing the available notebooks.
-6. Open `project.ipynb` to explore the comprehensive data analysis, which includes:
-    - Data cleaning, inspection, and visualization
-    - Coding and analysis
+5. Launch Jupyter Notebook or Visual Studio Code:
+    - To launch Jupyter Notebook, run `jupyter notebook` in the terminal. This will open a new tab in your web browser showing the available notebooks.
+    - To use Visual Studio Code, ensure the Python and Jupyter extensions are installed. Then, open the project folder in VS Code (`code .` in the terminal), and open the `.ipynb` files for interactive editing.
+6. Open and run `project.ipynb` to generate the full database file and perform comprehensive data analysis, including:
+   - Data cleaning, inspection, and visualization
+   - Coding and analysis
 7. Open `analysis.ipynb` to view the plots and summary of the data analysis.
 8. Ensure you have SQLite installed to connect to the `divvy_trips.db` database. You can use SQLite or any other compatible database viewer to interact with the database file.
 
