@@ -24,6 +24,7 @@ This project is a simple implementation of a data analytics tool using Python.
 - [**numpy**](https://numpy.org/) as np
 - [**seaborn**](https://seaborn.pydata.org/) as sns
 - [**sqlite3**](https://docs.python.org/3/library/sqlite3.html)
+- [**scikit-learn**](https://scikit-learn.org/stable/)
 - [**plotly.express**](https://plotly.com/python/plotly-express/) as px
 
 ***
@@ -129,7 +130,7 @@ The dataset’s completeness in trip-level details ensures robust analysis of op
 - Plotting: [1](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.figure.html), [2](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html), [3](https://matplotlib.org/stable/api/axes_api.html).  
 - Multiple datasets: [Combine datasets](https://stackoverflow.com/questions/77532900/concatenating-multiple-data-frames-in-python), [Split large datasets](https://dev.to/benjaminrancourt/how-to-split-a-large-csv-file-based-on-the-number-of-rows-312o).
 - Database: [1](https://www.sqlitetutorial.net/sqlite-python/), [2](https://docs.python.org/3/library/sqlite3.html), [3](https://www.w3schools.com/sql/).
-- SciKit-Learn: [1](https://scikit-learn.org/0.24/modules/generated/sklearn.preprocessing.StandardScaler.html), [2]([https](https://scikit-learn.org/0.19/modules/generated/sklearn.cluster.KMeans.html), [3](https://scikit-learn.org/1.5/modules/generated/sklearn.decomposition.PCA.html).
+- SciKit-Learn: [1](https://scikit-learn.org/0.24/modules/generated/sklearn.preprocessing.StandardScaler.html), [2](https://scikit-learn.org/0.19/modules/generated/sklearn.cluster.KMeans.html), [3](https://scikit-learn.org/1.5/modules/generated/sklearn.decomposition.PCA.html).
 
 ***
 
