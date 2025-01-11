@@ -14,6 +14,18 @@ The project presents a straightforward implementation of a data analytics tool u
 
 ***
 
+## Table of Contents
+- [Technologies](#Technologies)
+- [Libraries](#Libraries)
+- [Introduction](#introduction)
+- [Repository Contents](#repository-contents)
+- [Analysis Objectives](#analysis-objectives)
+- [Running the Program](#running-the-program)
+- [Resources](#resources)
+- [Disclaimer](#disclaimer)
+
+***
+
 ## Technologies
 
 * Python 3.11.5 ([Download](https://www.anaconda.com/download)) - Selected for its powerful libraries and widespread use in data analytics.
@@ -31,17 +43,6 @@ The project presents a straightforward implementation of a data analytics tool u
 - [**sqlite3**](https://docs.python.org/3/library/sqlite3.html) for database management - Allows efficient storage and retrieval of structured data.
 - [**scikit-learn**](https://scikit-learn.org/stable/) for machine learning algorithms - Facilitates the implementation of clustering, regression, and classification models.
 - [**plotly.express**](https://plotly.com/python/plotly-express/) for interactive visualizations - Enables the creation of dynamic and interactive plots for better insights.
-
-***
-
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Repository Contents](#reposatory-contents)
-- [Analysis Objectives](#analysis-objectives)
-- [Running the Program](#running-the-program)
-- [Resources](#resources)
-- [Disclaimer](#disclaimer)
 
 ***
 
@@ -179,7 +180,7 @@ The dataset’s completeness in trip-level details ensures robust analysis of op
 - [**Principal Component Analysis (PCA)**](https://scikit-learn.org/1.5/modules/generated/sklearn.decomposition.PCA.html)
 
 
-**Disclaimer**
+## Disclaimer:
 
 This repository includes content created with the assistance of an AI chat assistant. While the AI has provided valuable insights, code, and text generation, all content has been reviewed, modified, and verified by the repository's author to ensure accuracy and relevance.
 
