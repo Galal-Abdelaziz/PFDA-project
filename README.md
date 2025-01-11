@@ -6,26 +6,42 @@ Author: Galal Abdelaziz
 
 ## This README document is part of the __Programming For Data Analytics__ project 2024/2025, at [ATU](https://www.atu.ie/).
 
-This project is a simple implementation of a data analytics tool using Python. 
+The project presents a straightforward implementation of a data analytics tool using Python, aimed at analyzing the Divvy bike-sharing system in the Chicagoland area.
 
 ***
 
-## Technologies:
-
-* Python 3.11.5 available [here](https://www.anaconda.com/download)
-* Visual Studio Code available [here](https://code.visualstudio.com/)
+![readme](img/readme.jpg)
 
 ***
 
-## Libraries:
+## Technologies
 
-- [**pandas**](https://pandas.pydata.org/) as pd
-- [**matplotlib.pyplot**](https://matplotlib.org/stable/api/pyplot_api.html) as plt
-- [**numpy**](https://numpy.org/) as np
-- [**seaborn**](https://seaborn.pydata.org/) as sns
-- [**sqlite3**](https://docs.python.org/3/library/sqlite3.html)
-- [**scikit-learn**](https://scikit-learn.org/stable/)
-- [**plotly.express**](https://plotly.com/python/plotly-express/) as px
+* Python 3.11.5 ([Download](https://www.anaconda.com/download)) - Selected for its powerful libraries and widespread use in data analytics.
+* Visual Studio Code ([Download](https://code.visualstudio.com/)) - Chosen for its versatility and robust support for Python development.
+* Jupyter Notebook ([Installation Guide](https://jupyter.org/install)) - Utilized for its interactive environment that integrates code, visuals, and narrative text for seamless data analysis and presentation.
+
+***
+
+## Libraries
+
+- [**pandas**](https://pandas.pydata.org/) for data manipulation - Essential for handling large datasets and performing efficient data transformations.
+- [**matplotlib.pyplot**](https://matplotlib.org/stable/api/pyplot_api.html) for visualization - Used to create static, interactive, and animated visualizations.
+- [**numpy**](https://numpy.org/) for numerical computations - Provides support for handling arrays and performing complex mathematical operations.
+- [**seaborn**](https://seaborn.pydata.org/) for statistical data visualization - Offers high-level interface for drawing attractive statistical graphics.
+- [**sqlite3**](https://docs.python.org/3/library/sqlite3.html) for database management - Allows efficient storage and retrieval of structured data.
+- [**scikit-learn**](https://scikit-learn.org/stable/) for machine learning algorithms - Facilitates the implementation of clustering, regression, and classification models.
+- [**plotly.express**](https://plotly.com/python/plotly-express/) for interactive visualizations - Enables the creation of dynamic and interactive plots for better insights.
+
+***
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Repository Contents](#reposatory-contents)
+- [Analysis Objectives](#analysis-objectives)
+- [Running the Program](#running-the-program)
+- [Resources](#resources)
+- [Disclaimer](#disclaimer)
 
 ***
 
@@ -39,13 +55,13 @@ For more details, visit [Divvy Bikes Website](https://divvybikes.com/about).
 
 ***
 
-## Contents:
+## Repository Contents:
 
 - **datasets**: This folder contains the .CSV dataset files used for this analysis.
 - **img**: This folder contains all images used in this project.
 - **.gitignore**: Specifies which files and directories should be ignored by Git when committing changes to a repository.
 - [**project.ipynb**](https://github.com/Galal-Abdelaziz/PFDA-project/blob/main/project.ipynb): This notebook contains the full analysis, including data cleaning, data visualization, and data analysis.
-- [**analysis.ipynb**](https://github.com/Galal-Abdelaziz/PFDA-project/blob/main/analysis.ipynb): This notebook contains the data analysis part of the project.
+- [**analysis.ipynb**](https://github.com/Galal-Abdelaziz/PFDA-project/blob/main/analysis.ipynb): This notebook contains the data analysis portion of the project.
 - [**divvy_trips.db**](https://github.com/Galal-Abdelaziz/PFDA-project/blob/main/divvy_trips.db): This SQLite database file contains a table with Q1 data as a sample. A full-year database is generated when the project notebook is executed, due to GitHub's size limitations.
 - [**splitlargefile.py**](https://github.com/Galal-Abdelaziz/PFDA-project/blob/main/splitlargefile.py): This file contains the script I used to split large CSV files into smaller ones due to the limitations of GitHub.
 - **README.md**: Contains information about the repository, including its purpose, structure, and usage instructions.
@@ -53,24 +69,24 @@ For more details, visit [Divvy Bikes Website](https://divvybikes.com/about).
 
 ***
 
-## Analysis Objectives:
+## Analysis Objectives
 
 This project aims to analyze the Divvy trip data to gain insights into city-wide biking trends. The following objectives will be addressed:
 
-1. Determine the total number of Divvy trips that occurred.
-2. Identify the number of bikes utilized.
-3. Determine which bikes were most frequently used for trips.
-4. Calculate the average trip duration based on user types (e.g., customers and subscribers).
-5. Identify the most popular start and end stations for Divvy trips and analyze the most popular routes taken by Divvy Bikes users.
-6. Identify the least popular start and end stations for Divvy trips and analyze the least popular routes taken by Divvy Bikes users.
-7. Examine how Divvy Bikes usage is divided between customers and subscribers.
-8. Determine whether Divvy Bikes are used more by female or male users.
-9. Analyze the age distribution of Divvy Bikes users.
-10. Identify the peak times during which Divvy Bikes are most frequently used.
-11. Analyze Divvy Bikes usage patterns by day of the week.
-12. Analyze the number of riders per month by quarter for the year 2019.
+1. **Determine total trips**: Calculate the total number of Divvy trips that occurred.
+2. **Bike utilization**: Identify the number of bikes utilized during the period.
+3. **Frequent usage**: Determine which bikes were most frequently used for trips.
+4. **Trip duration**: Calculate the average trip duration based on user types (e.g., customers and subscribers).
+5. **Popular stations**: Identify the most popular start and end stations for Divvy trips and analyze the most popular routes taken by Divvy Bikes users.
+6. **Least popular stations**: Identify the least popular start and end stations for Divvy trips and analyze the least popular routes taken by Divvy Bikes users.
+7. **User division**: Examine how Divvy Bikes usage is divided between customers and subscribers.
+8. **Gender usage**: Determine whether Divvy Bikes are used more by female or male users.
+9. **Age demographics**: Analyze the age distribution of Divvy Bikes users.
+10. **Peak usage**: Identify the peak times during which Divvy Bikes are most frequently used.
+11. **Weekly patterns**: Analyze Divvy Bikes usage patterns by day of the week.
+12. **Monthly trends**: Analyze the number of riders per month by quarter for the year 2019.
 
-By addressing these questions, we aim to gain comprehensive insights into the utilization patterns and preferences of Divvy Bikes users, which can provide valuable information for optimizing and enhancing the bike-sharing system's services and infrastructure.
+By addressing these questions, the project seeks to provide actionable insights to optimize and enhance the bike-sharing system's services and infrastructure.
 
 ***
 
@@ -123,16 +139,45 @@ The dataset’s completeness in trip-level details ensures robust analysis of op
 
 ## Resources:
 
-- Weekly lectures. 
-- Understanding the dataset: : [1](https://divvy-tripdata.s3.amazonaws.com/index.html), [2](https://www.kaggle.com/datasets/mdmasumomarjashim/divvy-trips-data-20192020), [3](https://medium.com/@gbemuduazubuike/), [4](divvy-bikes-an-exercise-on-data-cleaning-and-analysis-of-cycling-data-using-r-programming-language-c38e8a4521ef).
-- Data Preperation: [Date Formatting](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.to_datetime.html); [Data Frame](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.set_index.html); [Handling Missing Values](https://community.sisense.com/t5/knowledge-base/dealing-with-missing-values-in-python/ta-p/9376).
-- Calculations: [Resampling](https://pandas.pydata.org/pandas-docs/stable/user_guide/timeseries.html#resampling); [Calculating Mean](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.mean.html); [Calculating Max](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.max.html); [Data Frame Filtring/Indexing](https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#boolean-indexing); [Date Time Index](https://pandas.pydata.org/pandas-docs/stable/user_guide/timeseries.html#dateoffset).
-- Plotting: [1](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.figure.html), [2](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html), [3](https://matplotlib.org/stable/api/axes_api.html).  
-- Multiple datasets: [Combine datasets](https://stackoverflow.com/questions/77532900/concatenating-multiple-data-frames-in-python), [Split large datasets](https://dev.to/benjaminrancourt/how-to-split-a-large-csv-file-based-on-the-number-of-rows-312o).
-- Database: [1](https://www.sqlitetutorial.net/sqlite-python/), [2](https://docs.python.org/3/library/sqlite3.html), [3](https://www.w3schools.com/sql/).
-- SciKit-Learn: [1](https://scikit-learn.org/0.24/modules/generated/sklearn.preprocessing.StandardScaler.html), [2](https://scikit-learn.org/0.19/modules/generated/sklearn.cluster.KMeans.html), [3](https://scikit-learn.org/1.5/modules/generated/sklearn.decomposition.PCA.html).
+**Weekly Lectures**
 
-***
+**Understanding the Dataset:**
+- [**Divvy Trip Data**](https://divvy-tripdata.s3.amazonaws.com/index.html)
+- [**Divvy Kaggle Dataset**](https://www.kaggle.com/datasets/mdmasumomarjashim/divvy-trips-data-20192020)
+- [**Divvy Data Cleaning and Analysis Blog**](https://medium.com/@gbemuduazubuike/)
+- [**Divvy Data Cleaning with R**](divvy-bikes-an-exercise-on-data-cleaning-and-analysis-of-cycling-data-using-r-programming-language-c38e8a4521ef)
+
+**Data Preparation:**
+- [**Date Formatting with Pandas**](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.to_datetime.html)
+- [**Setting DataFrame Index**](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.set_index.html)
+- [**Handling Missing Values in Python**](https://community.sisense.com/t5/knowledge-base/dealing-with-missing-values-in-python/ta-p/9376)
+
+**Calculations:**
+- [**Pandas Resampling**](https://pandas.pydata.org/pandas-docs/stable/user_guide/timeseries.html#resampling)
+- [**Calculating Mean with Pandas**](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.mean.html)
+- [**Calculating Max with Pandas**](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.max.html)
+- [**DataFrame Filtering/Indexing**](https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#boolean-indexing)
+- [**Handling DateTime Index**](https://pandas.pydata.org/pandas-docs/stable/user_guide/timeseries.html#dateoffset)
+
+**Plotting:**
+- [**Matplotlib Figure Creation**](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.figure.html)
+- [**Matplotlib Plot Function**](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html)
+- [**Matplotlib Axes API**](https://matplotlib.org/stable/api/axes_api.html)
+
+**Handling Multiple Datasets:**
+- [**Combining Datasets**](https://stackoverflow.com/questions/77532900/concatenating-multiple-data-frames-in-python)
+- [**Splitting Large Datasets**](https://dev.to/benjaminrancourt/how-to-split-a-large-csv-file-based-on-the-number-of-rows-312o)
+
+**Database:**
+- [**SQLite Python Tutorial**](https://www.sqlitetutorial.net/sqlite-python/)
+- [**Python SQLite3 Documentation**](https://docs.python.org/3/library/sqlite3.html)
+- [**SQL Basics**](https://www.w3schools.com/sql/)
+
+**SciKit-Learn (Machine Learning):**
+- [**StandardScaler for Feature Scaling**](https://scikit-learn.org/0.24/modules/generated/sklearn.preprocessing.StandardScaler.html)
+- [**KMeans Clustering**](https://scikit-learn.org/0.19/modules/generated/sklearn.cluster.KMeans.html)
+- [**Principal Component Analysis (PCA)**](https://scikit-learn.org/1.5/modules/generated/sklearn.decomposition.PCA.html)
+
 
 **Disclaimer**
 
