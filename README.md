@@ -187,4 +187,4 @@ This repository includes content created with the assistance of an AI chat assis
 
 ***
 
-## End
+## End.
